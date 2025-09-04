@@ -1,0 +1,64 @@
+import React from "react";
+
+export default function App() {
+  return (
+    <div style={{ fontFamily: "sans-serif", padding: "2rem" }}>
+      <h1 style={{ color: "green" }}>Sleep Money Site</h1>
+      <p>Make money while you sleep — no calls, no chaos.</p>
+
+      <h2>My 5 Picks</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.amazon.com/dp/B08L8C8T3S?tag=aigen0f-20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Phone Tripod Stand (Sponsored)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.amazon.com/dp/B07RGBZV8J?tag=aigen0f-20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LED Strip Lights (Sponsored)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.amazon.com/dp/B07TQSGP5Y?tag=aigen0f-20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Minimal Desk Lamp (Sponsored)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.amazon.com/dp/B07T81554H?tag=aigen0f-20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Reusable Water Bottle (Sponsored)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.amazon.com/dp/B07J5Q3T1Q?tag=aigen0f-20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hardcover Notebook Pack (Sponsored)
+          </a>
+        </li>
+      </ul>
+
+      <footer style={{ marginTop: "2rem", fontSize: "0.8rem", color: "gray" }}>
+        © {new Date().getFullYear()} Sleep Money Site.  
+        As an Amazon Associate I earn from qualifying purchases.
+      </footer>
+    </div>
+  );
+}
